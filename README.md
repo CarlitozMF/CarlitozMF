@@ -56,7 +56,7 @@ Para garantizar un código mantenible y facilitar la migración entre distintas 
 
 ## 📊 Estadísticas de GitHub
 
-![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=CarlitozMF&layout=compact&theme=vision-glow&hide_border=true)
+![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=CarlitozMF&layout=compact&theme=dark&hide_border=true&langs_count=6)
 
 ---
 
