@@ -40,7 +40,16 @@ Para garantizar un código mantenible y facilitar la migración entre distintas 
 3. **Capa 3: Aplicación & Lógica de Control**
    - **Enfoque:** Implementación de la lógica de negocio y comportamiento del sistema.
    - **Implementación:** Uso de **Máquinas de Estados Finitos (MEF)** para orquestar las tareas, interactuando únicamente con la Capa 2.
-
+```mermaid
+graph TD
+    A[Capa 3: Aplicación] -->|Lógica de Negocio / MEF| B[Capa 2: Abstracción de Software]
+    B -->|API Propia / Drivers Propios| C[Capa 1: Hardware Mapping]
+    C -->|Registros / CMSIS / SVD| D[Hardware: STM32 / NXP / AVR]
+    
+    style A fill:#00599C,stroke:#333,stroke-width:2px,color:#fff
+    style B fill:#2EAD33,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#FFD133,stroke:#333,stroke-width:2px,color:#000
+```
 ---
 
 ## 🚀 Proyectos Destacados
@@ -56,7 +65,9 @@ Para garantizar un código mantenible y facilitar la migración entre distintas 
 
 ## 📊 Estadísticas de GitHub
 
-![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=CarlitozMF&layout=compact&theme=dark&hide_border=true&langs_count=6)
+![Estadísticas de Carlos](https://github-readme-stats.vercel.app/api?username=CarlitozMF&show_icons=true&theme=tokyonight&count_private=true&hide_border=true)
+
+![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=CarlitozMF&layout=compact&theme=tokyonight&hide_border=true&langs_count=5)
 
 ---
 
