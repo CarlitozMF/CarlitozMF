@@ -77,3 +77,8 @@ graph TD
 * 🎯 **Objetivo Profesional:** Orientar mi carrera hacia el desarrollo de **Sistemas Embebidos**, con un fuerte enfoque en la comprensión profunda de la arquitectura de hardware. Mi meta es dominar el diseño de firmware eficiente y robusto, aplicando los fundamentos de la ingeniería electrónica al control directo de microcontroladores.
 * 🚀 **Perfil:** Estudiante avanzado y desarrollador **autodidacta**. Enfocado en la transición de la teoría académica al control total del silicio, construyendo drivers y capas de abstracción propias para entender qué sucede en cada ciclo de instrucción.
 * 📫 **Contacto:** [albertdilbert@gmail.com]
+
+---
+<p align="center">
+  <i>"La electrónica es la ciencia de lo pequeño, pero el firmware es el arte de hacerlo cobrar vida."</i>
+</p>
