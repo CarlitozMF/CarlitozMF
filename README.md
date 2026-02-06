@@ -65,11 +65,11 @@ graph TD
 
 ## 📊 Estadísticas de GitHub
 
-<p align="left">
+<p align="center">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=CarlitozMF&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de Carlos" />
 </p>
 
-<p align="left">
+<p align="center">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=CarlitozMF&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" alt="Lenguajes más usados" />
 </p>
 
