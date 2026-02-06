@@ -65,9 +65,13 @@ graph TD
 
 ## 📊 Estadísticas de GitHub
 
-![Estadísticas de Carlos](https://github-readme-stats.vercel.app/api?username=CarlitozMF&show_icons=true&theme=tokyonight&count_private=true&hide_border=true)
+<p align="left">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=CarlitozMF&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de Carlos" />
+</p>
 
-![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=CarlitozMF&layout=compact&theme=tokyonight&hide_border=true&langs_count=5)
+<p align="left">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=CarlitozMF&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" alt="Lenguajes más usados" />
+</p>
 
 ---
 
