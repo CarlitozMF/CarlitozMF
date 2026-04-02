@@ -9,10 +9,13 @@
   <img src="https://img.shields.io/badge/Assembly-%232EAD33.svg?style=for-the-badge&logo=assembly&logoColor=white" alt="Assembly">
   <img src="https://img.shields.io/badge/STM32-%23032357.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32">
   <img src="https://img.shields.io/badge/NXP-%23FF5722.svg?style=for-the-badge&logo=nxp&logoColor=white" alt="NXP">
+  <img src="https://img.shields.io/badge/AVR-%23005485.svg?style=for-the-badge&logo=microchip&logoColor=white" alt="AVR">
   <img src="https://img.shields.io/badge/Microchip-2EAD33?style=for-the-badge&logo=microchip&logoColor=white" alt="Microchip">
+  <img src="https://img.shields.io/badge/STM32CubeIDE-%23032357.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32CubeIDE">
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/GCC-FFD133?style=for-the-badge&logo=gnu&logoColor=black" alt="ARM-GCC">
+  <img src="https://img.shields.io/badge/AVR--GCC-%23005485.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="AVR-GCC">
   <img src="https://img.shields.io/badge/MPLAB_X-FF8000?style=for-the-badge&logo=microchip&logoColor=white" alt="MPLAB X">
-  <img src="https://img.shields.io/badge/GCC-FFD133?style=for-the-badge&logo=gnu&logoColor=black" alt="GCC">
 </div>
 
 ---
