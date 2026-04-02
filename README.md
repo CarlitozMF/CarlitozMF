@@ -30,7 +30,9 @@ Mi flujo de trabajo se centra en la independencia de IDEs comerciales, utilizand
 
 * **Microcontroladores:** * **ARM Cortex-M4/M0:** STM32 Nucleo-F439ZI, NXP LPC4337 (EDU-CIAA).
   * **8-bit Mastery:** Microchip **PIC16F84A** (ASM) y AVR ATmega328p (Bare-metal C).
-* **Lenguajes:** C (Bare-metal) y **Assembly (RISC 8-bit / ARM)**.
+* **Lenguajes:** C y **Assembly **.
+* **Arquitecturas:** * **8-bit RISC:** Dominio de **Microchip PIC** (Estructura Harvard, gestión de bancos) y **AVR ATmega** (Arquitectura Single-cycle, Bare-metal).
+  * **32-bit ARM Cortex-M:** Especialización en núcleos **M4** (STM32 Nucleo-F439ZI) y núcleos duales **M4/M0** (NXP LPC4337 - EDU-CIAA).
 * **Toolchain Local:** VS Code + GCC + Makefiles | **MPLAB X + MPASM / PIC-AS**.
 * **Periféricos & Protocolos:** * Dominio de **Timers avanzados** (Maestro/Esclavo), ADC, EXTI.
   * Comunicación serie: UART, SPI, I2C.
