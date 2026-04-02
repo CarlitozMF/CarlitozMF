@@ -7,6 +7,8 @@
 [![STM32](https://img.shields.io/badge/stm32-%23032357.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white)](#)
 [![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](#)
 [![GCC](https://img.shields.io/badge/GCC-FFD133?style=for-the-badge&logo=gnu&logoColor=black)](#)
+[![Microchip](https://img.shields.io/badge/Microchip-2EAD33?style=for-the-badge&logo=microchip&logoColor=white)](#)
+[![MPLAB X](https://img.shields.io/badge/MPLAB_X-FF8000?style=for-the-badge&logo=microchip&logoColor=white)](#)
 
 Estudiante de 4° año de Ingeniería Electrónica en la **Universidad Tecnológica Nacional (UTN FRT)** y desarrollador autodidacta apasionado por los sistemas embebidos. Mi enfoque principal es el desarrollo de firmware de bajo nivel, priorizando el control absoluto sobre el hardware y la robustez del código mediante la creación de capas de abstracción propias.
 
@@ -17,9 +19,9 @@ Estudiante de 4° año de Ingeniería Electrónica en la **Universidad Tecnológ
 Mi flujo de trabajo se centra en la independencia de IDEs comerciales, utilizando un entorno profesional y altamente configurable:
 
 * **Microcontroladores:** * **ARM Cortex-M4/M0:** STM32 Nucleo-F439ZI, NXP LPC4337 (EDU-CIAA).
-  * **AVR:** ATmega328p (Bare-metal).
-* **Lenguajes:** C (Bare-metal) y Assembler.
-* **Toolchain Local:** VS Code + GCC (arm-none-eabi, avr-gcc) + Makefiles + GDB + OpenOCD.
+  * **8-bit Mastery:** Microchip **PIC16F84A** (ASM) y AVR ATmega328p (Bare-metal C).
+* **Lenguajes:** C (Bare-metal) y **Assembly (RISC 8-bit / ARM)**.
+* **Toolchain Local:** VS Code + GCC + Makefiles | **MPLAB X + MPASM / PIC-AS**.
 * **Periféricos & Protocolos:** * Dominio de **Timers avanzados** (Maestro/Esclavo), ADC, EXTI.
   * Comunicación serie: UART, SPI, I2C.
 
@@ -44,7 +46,7 @@ Para garantizar un código mantenible y facilitar la migración entre distintas 
 graph TD
     A[Capa 3: Aplicación] -->|Lógica de Negocio / MEF| B[Capa 2: Abstracción de Software]
     B -->|API Propia / Drivers Propios| C[Capa 1: Hardware Mapping]
-    C -->|Registros / CMSIS / SVD| D[Hardware: STM32 / NXP / AVR]
+    C -->|Registros / CMSIS / ASM| D[Hardware: STM32 / NXP / AVR / PIC]
     
     style A fill:#00599C,stroke:#333,stroke-width:2px,color:#fff
     style B fill:#2EAD33,stroke:#333,stroke-width:2px,color:#fff
@@ -60,6 +62,7 @@ graph TD
 | [**Notas-sobre-STM32-y-Sistemas-Embebidos**](https://github.com/CarlitozMF/Notas-sobre-STM32-y-Sistemas-Embebidos) |  **Ecosistema STM32** | Guía completa de 32 bits: Uso de STM32CubeIDE y HAL para el desarrollo de drivers propios (Nivel Básico, Medio y Avanzado). |
 | [**AVR-BareMetal-Lab**](https://github.com/CarlitozMF/AVR-BareMetal-Lab) | **ATmega328p** | Programación Bare Metal en C y desarrollo de una capa de abstracción de software (API propia) desde cero. |
 | [**AVR-Toolchain-Portable**](https://github.com/CarlitozMF/AVR-Toolchain-Portable) | **Toolchain** | Configuración de entorno de compilación independiente para AVR. |
+| [**PIC16F84A-Mastery**](https://github.com/CarlitozMF/PIC16F84A-Mastery) | **PIC16F84A** | Inmersión en arquitectura Harvard: Dominio de ASM, gestión de bancos de memoria y migración de código legacy a estándares industriales modernos (PIC-AS). |
 
 ---
 
