@@ -4,22 +4,12 @@
 
 ---
 
-## 🛠️ Tecnologías y Entornos
-
-### **Lenguajes de Programación**
 <div align="left">
   <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
   <img src="https://img.shields.io/badge/Assembly-%232EAD33.svg?style=for-the-badge&logo=assembly&logoColor=white" alt="Assembly">
-</div>
-
-### **Plataformas y Hardware**
-<div align="left">
   <img src="https://img.shields.io/badge/STM32-%23032357.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32">
+  <img src="https://img.shields.io/badge/NXP-%23FF5722.svg?style=for-the-badge&logo=nxp&logoColor=white" alt="NXP">
   <img src="https://img.shields.io/badge/Microchip-2EAD33?style=for-the-badge&logo=microchip&logoColor=white" alt="Microchip">
-</div>
-
-### **Entornos de Desarrollo e IDEs**
-<div align="left">
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
   <img src="https://img.shields.io/badge/MPLAB_X-FF8000?style=for-the-badge&logo=microchip&logoColor=white" alt="MPLAB X">
   <img src="https://img.shields.io/badge/GCC-FFD133?style=for-the-badge&logo=gnu&logoColor=black" alt="GCC">
