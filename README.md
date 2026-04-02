@@ -41,23 +41,24 @@ Mi flujo de trabajo se centra en la independencia de IDEs comerciales, utilizand
 
 ## 🏗️ Metodología de Desarrollo
 
-Para garantizar un código mantenible y facilitar la migración entre distintas familias de microcontroladores, implemento una **Arquitectura de Software por Capas**:
+Para garantizar un código mantenible y facilitar la migración entre distintas familias de microcontroladores, implemento una **Arquitectura de Software por Capas** basada en estándares de ingeniería:
 
 1. **Capa 1: Hardware Mapping & Low-Level**
-   - **Enfoque:** Acceso directo a registros mediante máscaras y punteros.
-   - **Implementación:** Uso de definiciones de registros (CMSIS/SVD para ARM o `avr/io.h` para AVR) para configurar el silicio desde sus cimientos.
+   - **Enfoque:** Acceso directo a registros mediante máscaras, punteros y **Assembly puro** (específicamente en PIC16F) para optimización crítica.
+   - **Implementación:** Uso de definiciones de registros (**CMSIS/SVD** para ARM o `avr/io.h` para AVR) para configurar el silicio desde sus cimientos.
 
 2. **Capa 2: Abstracción de Hardware (Drivers Propios)**
-   - **Enfoque:** Creación de una **API propia** que encapsula la complejidad del hardware o de librerías base (**HAL de ST** o **LPCOpen**).
-   - **Implementación:** Desarrollo de drivers modulares (GPIO, ADC, UART, Timers) con niveles de complejidad básico, medio y avanzado.
+   - **Enfoque:** Creación de una **API propia** que encapsula la complejidad del hardware o de librerías base de fabricante.
+   - **Implementación:** Desarrollo de drivers modulares (GPIO, ADC, UART, Timers) integrando la **HAL de ST** (STM32) o **LPCOpen** (NXP) como capas de soporte para agilizar el despliegue profesional.
 
 3. **Capa 3: Aplicación & Lógica de Control**
-   - **Enfoque:** Implementación de la lógica de negocio y comportamiento del sistema.
+   - **Enfoque:** Implementación de la lógica de negocio y comportamiento del sistema totalmente desacoplada del hardware.
    - **Implementación:** Uso de **Máquinas de Estados Finitos (MEF)** para orquestar las tareas, interactuando únicamente con la Capa 2.
+
 ```mermaid
 graph TD
     A[Capa 3: Aplicación] -->|Lógica de Negocio / MEF| B[Capa 2: Abstracción de Software]
-    B -->|API Propia / Drivers Propios| C[Capa 1: Hardware Mapping]
+    B -->|API Propia / HAL ST / LPCOpen| C[Capa 1: Hardware Mapping]
     C -->|Registros / CMSIS / ASM| D[Hardware: STM32 / NXP / AVR / PIC]
     
     style A fill:#00599C,stroke:#333,stroke-width:2px,color:#fff
