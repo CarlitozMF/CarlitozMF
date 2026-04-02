@@ -71,11 +71,12 @@ graph TD
 
 | Repositorio | Hardware | Foco Técnico |
 | :--- | :--- | :--- |
+| [**PIC16F84A-Mastery**](https://github.com/CarlitozMF/PIC16F84A-Mastery) | **PIC16F84A** | Inmersión en arquitectura Harvard: Dominio de ASM, gestión de bancos de memoria y migración de código legacy a estándares industriales modernos (PIC-AS). |
+| [**AVR-BareMetal-Lab**](https://github.com/CarlitozMF/AVR-BareMetal-Lab) | **ATmega328p** | Programación Bare Metal en C y desarrollo de una capa de abstracción de software (API propia) desde cero. |
 | [**Edu-CIAA-LPC4337-LPCOpen-Lab**](https://github.com/CarlitozMF/Edu-CIAA-LPC4337-LPCOpen-Lab) | **EDU-CIAA (LPC4337)** | Estudio de arquitectura dual-core y dominio del silicio mediante LPCOpen. |
 | [**Notas-sobre-STM32-y-Sistemas-Embebidos**](https://github.com/CarlitozMF/Notas-sobre-STM32-y-Sistemas-Embebidos) |  **Ecosistema STM32** | Guía completa de 32 bits: Uso de STM32CubeIDE y HAL para el desarrollo de drivers propios (Nivel Básico, Medio y Avanzado). |
-| [**AVR-BareMetal-Lab**](https://github.com/CarlitozMF/AVR-BareMetal-Lab) | **ATmega328p** | Programación Bare Metal en C y desarrollo de una capa de abstracción de software (API propia) desde cero. |
 | [**AVR-Toolchain-Portable**](https://github.com/CarlitozMF/AVR-Toolchain-Portable) | **Toolchain** | Configuración de entorno de compilación independiente para AVR. |
-| [**PIC16F84A-Mastery**](https://github.com/CarlitozMF/PIC16F84A-Mastery) | **PIC16F84A** | Inmersión en arquitectura Harvard: Dominio de ASM, gestión de bancos de memoria y migración de código legacy a estándares industriales modernos (PIC-AS). |
+
 
 ---
 
